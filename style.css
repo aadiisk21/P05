@@ -78,3 +78,11 @@ select {
         scroll-behavior: auto !important;
     }
 }
+
+/* body style */
+
+body {
+    border: 1px solid black;
+    width: 100vw;
+    font-family: 'Red Hat Display', sans-serif;
+}
