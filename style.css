@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     font-family: inherit;
+    overflow: hidden;
 }
 
 body,
@@ -82,7 +83,36 @@ select {
 /* body style */
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;
     width: 100vw;
+    height: auto;
     font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 80vw;
+    height: 100%;
+}
+
+.card {
+    width: 385px;
+    height: 600px;
+    /* border: 1px solid black; */
+    border-radius: 16px;
+    background-color: white;
+    margin: 2rem;
+    -webkit-box-shadow: 0px 16px 32px -3px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 16px 32px -3px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 16px 32px -3px rgba(0, 0, 0, 0.12);
 }
