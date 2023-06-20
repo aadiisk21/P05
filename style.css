@@ -116,3 +116,15 @@ body {
     -moz-box-shadow: 0px 16px 32px -3px rgba(0, 0, 0, 0.12);
     box-shadow: 0px 16px 32px -3px rgba(0, 0, 0, 0.12);
 }
+
+/* media query for mobile */
+@media (max-width: 800px) and (min-height: 100vh) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(images/pattern-background-mobile.svg);
+        background-position: inherit;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
